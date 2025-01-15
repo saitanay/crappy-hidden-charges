@@ -1,7 +1,7 @@
 const { pool1, pool2 } = require('./wordPools');
 const config = require('./config');
 
-function generateHiddenCharge(deviceModel) {
+function generateHiddenCharge(deviceModel = "") {
   const pool3 = "Fee";
 
   // Generate a random name from the pools
